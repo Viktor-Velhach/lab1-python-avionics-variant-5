@@ -30,6 +30,15 @@ for i in l:
 print("Dangerous events: ", dang_event)
 
 #Задача 3
-
+drop=float(input('Enter how much the oxygen level drops: '))
+levelO2=float(input('Enter oxygen level(in %): '))
+while levelO2>0:
+    if levelO2<=20:
+        print('WARNING!Oxygen level is too low')
+        continue
+    if levelO2<=5:
+        print('Oxygen level is less then 5%')
+        break
+    levelO2-=drop
 
 #Задача 4
