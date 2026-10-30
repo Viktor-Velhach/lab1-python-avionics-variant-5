@@ -1,4 +1,7 @@
-
+"""Щоб запустити функцію вирішення задачі в консолі,
+потрібно ввести саму назву функції в консолі та дужки.
+Приклад:
+problem_1()"""
 def problem_1():
  power=float(input('Enter a power of engine(in %): '))
  power_min=float(input('Enter minimal power of engine(in %): '))#Necessary reference data for comparison
