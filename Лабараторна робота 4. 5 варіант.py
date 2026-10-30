@@ -42,3 +42,13 @@ while levelO2>0:
     levelO2-=drop
 
 #Задача 4
+keys=['Engine','Nav','LifeSupport']
+values=[float(input('Enter power Engine')),float(input('Enter power Nav')),float(input('Enter power LifeSupport'))]
+{k:v for (k,v) in zip(keys,values)} #concatenating two lists in dictionary
+m=0
+p=''
+for i in d.values():
+    if d.values>m: #Search the largest values of power
+        m=d.values()
+        p=d.key() #name of system that eat the most power
+print('The system that eat the most power',p)
