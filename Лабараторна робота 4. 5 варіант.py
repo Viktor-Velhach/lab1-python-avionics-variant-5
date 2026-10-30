@@ -13,7 +13,12 @@ elif force>force_min and tank_level>tank_level_min and l_to_zps<l_max:
     print("Продовження місії")
 
 #Задача 2
-
+'''event_type=
+priority=
+payload='''
+event=(event_type=input(''), priority=int(input('')), payload=input(''))
+match ...:
+    case 
 
 #Задача 3
 
